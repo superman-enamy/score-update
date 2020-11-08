@@ -2,8 +2,8 @@ name: live-score-update
 
 on:
   #schedule:
-    # every 10 minutes the job will run
-   # - cron: "*/10 * * * *"
+    # every 1 minutes the job will run
+   # - cron: "*/1 * * * *"
   push:
     branches:
       - master
